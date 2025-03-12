@@ -11,7 +11,8 @@ Si puedo avanzar más cuando termine la primera parte me gustaría ofrecer mejor
 - Actualizar el diseño.
 ...
 
-# Para visualizar el proyecto clone este repositorio en la terminal: 
+# Para visualizar el proyecto 
+  Clone este repositorio en la terminal: https://github.com/ANGELACAMU/Sign-Language.git
   Instale las dependencias escribiendo en la terminal: npm install
   Para arrancar el proyecto escriba en la terminal: npm run dev
 
