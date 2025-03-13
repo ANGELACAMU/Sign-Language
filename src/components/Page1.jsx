@@ -1,4 +1,5 @@
 import "../scss/layout/Page1.scss";
+import { Link } from "react-router-dom";
 
 function Page1() {
   return (
@@ -7,7 +8,13 @@ function Page1() {
         <header>
           <h1>Descubre el mensaje</h1>
         </header>
-        <main></main>
+        <main>
+          <div>
+            <Link className="button-page1" to="/abc">
+              ¡Click!
+            </Link>
+          </div>
+        </main>
       </div>
     </>
   );

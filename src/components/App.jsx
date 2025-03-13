@@ -1,8 +1,17 @@
 import "../scss/App.scss";
-//import { Routes, Route } from "react-router-dom";
+import Page1 from "./Page1";
+import Page2 from "./Page2";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  return <h1>Sign-Language</h1>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Page1 />} />
+        <Route path="/abc" element={<Page2 />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
