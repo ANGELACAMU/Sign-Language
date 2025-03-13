@@ -1,0 +1,23 @@
+.img-container-3of7 {
+    background-color: rgb(242, 250, 125);
+    display: grid; 
+    grid-template-columns: repeat(5, 4fr);
+    gap: 5px; 
+    justify-items: center; 
+    align-items: center;
+}
+
+.example-img {
+    width: 90px;
+}
+
+
+.img-container-1of2 {
+    background-color: rgb(250, 200, 125);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 5px;
+    justify-items: center; 
+    align-items: center;
+    
+}

@@ -1,0 +1,40 @@
+.img-container {
+    background-color: aqua;
+    display: grid; // Habilitamos CSS Grid
+    grid-template-columns: repeat(3, 1fr); // Creamos 3 columnas con el mismo tamaño
+    gap: 10px; // Espacio entre las imágenes (ajústalo a tu preferencia)
+    justify-items: center; // Centra las imágenes dentro de cada celda
+    align-items: center;
+}
+
+.example-img1 {
+    width: 90px;
+}
+
+.example-img2 {
+    width: 90px;
+}
+.example-img3 {
+    width: 90px;
+}
+.example-img4
+ {
+    width: 90px;
+}
+.example-img5
+ {
+    width: 90px;
+}
+.example-img6 {
+    width: 90px;
+}
+
+.example-img7 {
+    width: 90px;
+}
+.example-img8 {
+    width: 90px;
+}
+.example-img9 {
+    width: 90px;
+}
