@@ -15,127 +15,127 @@ function Page2() {
         <main>
           <div className="img-container-3of7">
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
@@ -143,24 +143,24 @@ function Page2() {
 
           <div className="img-container-1of2">
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
             <img
-              className="example-img"
+              className="example-img2"
               src={exampleImage}
               alt="temporari image"
             />
           </div>
           <div className="button2-container">
             <Link className="button-landing" to="/">
-              Vuelve al mensaje
+              Vuelve a ver la palabra
             </Link>
           </div>
           <div className="question">
             <label className="question-label" htmlFor="Answer">
-              Prueba tu respuesta
+              Escribe tu respuesta
             </label>
             <input className="question-input" type="text" />
           </div>
