@@ -14,47 +14,47 @@ function Page1() {
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
           </div>
           <div className="button-container">

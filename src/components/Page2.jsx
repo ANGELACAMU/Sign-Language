@@ -1,141 +1,143 @@
 import "../scss/layout/Page2.scss";
 import { Link } from "react-router-dom";
 import exampleImage from "../images/IMG-EJEMPLO.png";
+import iconArrow from "../images/arrow-down-solid.svg";
 
 function Page2() {
   return (
     <>
       <div className="Page2-container">
-        <header>
-          <h1>ABECEDARIO</h1>
+        <header className="header2">
+          <h1 className="h1-1">ABECEDARIO</h1>
           <h2>Lengua de signos</h2>
+          <img className="icon-arrow" src={iconArrow} alt="icon arrow" />
         </header>
         <main>
           <div className="img-container-3of7">
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
           </div>
 
@@ -143,22 +145,24 @@ function Page2() {
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
             <img
               className="example-img"
               src={exampleImage}
-              alt="imagen temporal para mostrar"
+              alt="temporari image"
             />
           </div>
-          <label className="label-name-landing" htmlFor="Name">
-            Prueba tu respuesta
-          </label>
-          <input className="input-name-landing" type="text" />
-          <div>
+          <div className="button2-container">
             <Link className="button-landing" to="/">
               Vuelve al mensaje
             </Link>
+          </div>
+          <div className="question">
+            <label className="question-label" htmlFor="Answer">
+              Prueba tu respuesta
+            </label>
+            <input className="question-input" type="text" />
           </div>
         </main>
       </div>
