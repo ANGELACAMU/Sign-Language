@@ -5,61 +5,61 @@ import exampleImage from "../images/IMG-EJEMPLO.png";
 function Page1() {
   return (
     <>
-      <div className="Page1-container">
-        <header>
-          <h1>Descubre el mensaje</h1>
+      <div className="page1-container">
+        <header className="header1">
+          <h1>¿Cúal es la palabra que deletreo?</h1>
         </header>
-        <main>
+        <main className="main1">
           <div className="img-container">
             <img
-              className="example-img1"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
             <img
-              className="example-img2"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
             <img
-              className="example-img3"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
             <img
-              className="example-img4"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
             <img
-              className="example-img5"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
             <img
-              className="example-img6"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
             <img
-              className="example-img7"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
             <img
-              className="example-img8"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
             <img
-              className="example-img9"
+              className="example-img"
               src={exampleImage}
               alt="imagen temporal para mostrar"
             />
           </div>
-          <div>
+          <div className="button-container">
             <Link className="button-page1" to="/abc">
-              ¡Click!
+              ¡ Descúbrelo !
             </Link>
           </div>
         </main>

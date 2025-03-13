@@ -1,5 +1,23 @@
+.page1-container {
+    background-color: rgb(101, 137, 235);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.main1 {
+    margin: 20px;
+}
+
 .img-container {
-    background-color: aqua;
+    background-color: rgb(167, 241, 241);
     display: grid; // Habilitamos CSS Grid
     grid-template-columns: repeat(3, 1fr); // Creamos 3 columnas con el mismo tamaño
     gap: 10px; // Espacio entre las imágenes (ajústalo a tu preferencia)
@@ -7,34 +25,27 @@
     align-items: center;
 }
 
-.example-img1 {
+.example-img {
     width: 90px;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
 
-.example-img2 {
-    width: 90px;
-}
-.example-img3 {
-    width: 90px;
-}
-.example-img4
- {
-    width: 90px;
-}
-.example-img5
- {
-    width: 90px;
-}
-.example-img6 {
-    width: 90px;
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(52, 73, 255);
 }
 
-.example-img7 {
-    width: 90px;
-}
-.example-img8 {
-    width: 90px;
-}
-.example-img9 {
-    width: 90px;
+.button-page1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: aquamarine;
+    font-size: 20px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 5%;
 }
