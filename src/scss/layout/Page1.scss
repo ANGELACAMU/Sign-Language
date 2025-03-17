@@ -22,10 +22,11 @@
     gap: 10px; // Espacio entre las imágenes (ajústalo a tu preferencia)
     justify-items: center; // Centra las imágenes dentro de cada celda
     align-items: center;
+    border-radius: 10px ;
 }
 
 .example-img {
-    width: 90px;
+    width: 80px;
     background-color: aliceblue;
     border-radius: 10px;
     margin: 10px;

@@ -1,0 +1,31 @@
+.Page3-container {
+    height: 100vh;
+    
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.result label {
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.result-input {
+    height: 30px;
+    padding: 5px;
+}
