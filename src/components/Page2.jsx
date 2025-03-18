@@ -1,7 +1,14 @@
 import "../scss/layout/Page2.scss";
 import { Link } from "react-router-dom";
 import exampleImage from "../images/IMG-EJEMPLO.png";
+import letterA from "../images/LETRAS/A.png";
+import letterB from "../images/LETRAS/B.png";
+import letterC from "../images/LETRAS/C.png";
+import letterD from "../images/LETRAS/D.png";
+import letterE from "../images/LETRAS/E.png";
+import letterF from "../images/LETRAS/F.png";
 import iconArrow from "../images/arrow-down-solid.svg";
+import IllustrationA from "../images/ILLUSTRATIONS/A-hand.png";
 
 function Page2() {
   return (
@@ -14,36 +21,18 @@ function Page2() {
         </header>
         <main>
           <div className="img-container-3of7">
-            <img
-              className="example-img2"
-              src={exampleImage}
-              alt="temporari image"
-            />
-            <img
-              className="example-img2"
-              src={exampleImage}
-              alt="temporari image"
-            />
-            <img
-              className="example-img2"
-              src={exampleImage}
-              alt="temporari image"
-            />
-            <img
-              className="example-img2"
-              src={exampleImage}
-              alt="temporari image"
-            />
-            <img
-              className="example-img2"
-              src={exampleImage}
-              alt="temporari image"
-            />
-            <img
-              className="example-img2"
-              src={exampleImage}
-              alt="temporari image"
-            />
+            <button>
+              <img
+                className="example-img2"
+                src={letterA}
+                alt="temporari image"
+              />
+            </button>
+            <img className="example-img2" src={letterB} alt="temporari image" />
+            <img className="example-img2" src={letterC} alt="temporari image" />
+            <img className="example-img2" src={letterD} alt="temporari image" />
+            <img className="example-img2" src={letterE} alt="temporari image" />
+            <img className="example-img2" src={letterF} alt="temporari image" />
             <img
               className="example-img2"
               src={exampleImage}
@@ -151,7 +140,17 @@ function Page2() {
             />
           </div>
 
-          <div className="img-container-1of2"></div>
+          {/*<div className="img-container-1of2"></div>*/}
+
+          <div className="modal-container">
+            <img
+              className="ilu-A"
+              src={IllustrationA}
+              alt="image ilustrated sign A"
+            />
+            <button className="button-close">Cerrar</button>
+          </div>
+
           <div className="buttons-container">
             <Link className="button-landing" to="/">
               Vuelve a ver la palabra
