@@ -1,6 +1,6 @@
 import "../scss/layout/Page2.scss";
 import { Link } from "react-router-dom";
-import exampleImage from "../images/IMG-EJEMPLO.png";
+//import exampleImage from "../images/IMG-EJEMPLO.png";
 import letterA from "../images/LETRAS/A.png";
 import letterB from "../images/LETRAS/B.png";
 import letterC from "../images/LETRAS/C.png";
