@@ -37,8 +37,10 @@ function Page2() {
     <>
       <div className="Page2-container">
         <header className="header2">
-          <h1 className="h1-1">ABECEDARIO</h1>
-          <h2>Lengua de signos</h2>
+          <h1 className="h1-1">ALFABETO</h1>
+          <h1 className="h1-1">DACTILOLÓGICO</h1>
+
+          <h2 className="h2-2">Lengua de signos</h2>
           <img className="icon-arrow" src={iconArrow} alt="icon arrow" />
         </header>
         <main>
@@ -92,7 +94,7 @@ function Page2() {
           </div>
 
           <div className="buttons-container">
-            <Link className="button-landing" to="/">
+            <Link className="go-landing" to="/">
               Vuelve a ver la palabra
             </Link>
             <Link className="discover-answer" to="/result">

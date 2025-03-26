@@ -18,6 +18,10 @@ font-family: "Quicksand", sans-serif;}
     align-items: center;
 }
 
+.h2-2 {
+    color: rgb(98, 135, 255);
+}
+
 .img-container-3of7 {
     background-color: rgb(242, 250, 125);
     display: grid; 
@@ -56,14 +60,18 @@ font-family: "Quicksand", sans-serif;}
     justify-content: center;
     
     
+    
 }
 
-.button-landing {
+.go-landing {
     font-size: 20px;
     color: black;
     background-color: aliceblue;
     padding: 15px;
     border-radius: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .discover-answer {
@@ -73,6 +81,9 @@ font-family: "Quicksand", sans-serif;}
     padding: 15px;
     border-radius: 10px;
     scroll-behavior: smooth;
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
 
 }
 
@@ -114,5 +125,5 @@ font-family: "Quicksand", sans-serif;}
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    border-color: rgb(183, 0, 255);
+    border-color: rgb(98, 135, 255);
 }
